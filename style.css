@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('wallpaper-2426837.webp') no-repeat ;
+    background-size: cover;
+    /* background-size: 50%; */
+    background-position: center;
+
+
+}
+.container{
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    width: 420px;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.container h1{
+    text-align: center;
+    font-size: 36px;
+
+}
+.container .inp{
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+    position: relative;
+
+}
+.inp input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255,0.5);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+input::placeholder{
+    color: white;
+}
+.inp i{
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.container.remember_me{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;}
+
+.remember_me a{
+    color: white;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.container .checkBtn{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: 700;
+}
+/* .container .forget{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+
+} */
+.container .register{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    margin: 20px 0 15px;
+}
+.register a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.register a:hover{
+    text-decoration: underline;
+}
